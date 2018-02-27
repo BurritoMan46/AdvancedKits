@@ -1,19 +1,19 @@
 name: AdvancedKits
 main: AdvancedKits\Main
-version: 5.2
-api: [3.0.0-ALPHA7]
+version: 5.3
+api: [3.0.0-ALPHA11]
 author: luca28pet
 description: Add kits to your server
 website: https://github.com/luca28pet/AdvancedKits
 commands:
  kit:
-  description: Get a kit!
-  usage: "/kit <kitName>"
-  aliases: [ak, advancedkits]
+  description: claim a kit!
+  usage: "§b/kit <kitName>"
+  aliases: [kt, kits]
   permission: advancedkits.command
  akreload:
   descrpition: Reload Kits settings
-  usage: "/akreload"
+  usage: "§b/akreload"
   permission: advancedkits.admin
 permissions:
  advancedkits.command:
